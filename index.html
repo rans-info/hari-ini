@@ -4,13 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <meta name="google-site-verification" content="I-dAro4FCPvrs66G9IxKv0uEAktJ7d-gNIwrMlQUs5M">
-    <title>RANS INFO HARI INI</title>
+    <title>RANS INFO HARI INI - Portal Berita Terkini Seputar Hiburan, Olahraga & Gaya Hidup</title>
+    
+    <!-- Enhanced Meta for Discovery -->
+    <meta name="description" content="RANS INFO menyajikan berita terkini seputar hiburan, olahraga, bisnis dan gaya hidup. Update harian dengan informasi akurat dan menarik.">
+    <meta name="keywords" content="berita hiburan, update olahraga, gaya hidup, RANS INFO, berita terkini">
     <link rel="canonical" href="https://rans-info.github.io/hari-ini/">
+    
+    <!-- Social Media Meta -->
+    <meta property="og:title" content="RANS INFO HARI INI - Portal Berita Terkini">
+    <meta property="og:description" content="Update harian seputar hiburan, olahraga dan gaya hidup dari RANS INFO">
+    <meta property="og:url" content="https://rans-info.github.io/hari-ini/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://source.unsplash.com/1200x630/?news">
+    <meta property="og:site_name" content="RANS INFO HARI INI">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="RANS INFO HARI INI">
+    <meta name="twitter:description" content="Update harian seputar hiburan, olahraga dan gaya hidup">
+    <meta name="twitter:image" content="https://source.unsplash.com/1200x630/?news">
     
     <!-- AMP Boilerplate -->
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     
+    <!-- AMP Components for Discovery -->
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsMediaOrganization",
+      "name": "RANS INFO HARI INI",
+      "url": "https://rans-info.github.io/hari-ini/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://source.unsplash.com/400x250/?news",
+        "width": 400,
+        "height": 250
+      },
+      "sameAs": [
+        "https://facebook.com/ransinfo",
+        "https://twitter.com/ransinfo"
+      ]
+    }
+    </script>
     
     <!-- Custom CSS -->
     <style amp-custom>
@@ -52,6 +96,10 @@
             border-radius: 0.5rem;
             overflow: hidden;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .card:active {
+            transform: scale(0.98);
         }
         .card-content {
             padding: 1rem;
@@ -69,6 +117,13 @@
             color: #2563eb;
             font-weight: 600;
             text-decoration: none;
+            display: inline-block;
+        }
+        .share-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            justify-content: center;
         }
         footer {
             background: #2563eb;
@@ -89,6 +144,23 @@
     </style>
 </head>
 <body>
+    <!-- Google Analytics -->
+    <amp-analytics type="googleanalytics">
+    <script type="application/json">
+    {
+      "vars": {
+        "account": "UA-XXXXX-Y"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
+    </script>
+    </amp-analytics>
+    
     <header>
         <div class="container">
             <h1 class="header-title">RANS INFO HARI INI</h1>
@@ -99,7 +171,7 @@
         <div class="grid">
             <div class="card">
                 <amp-img src="https://source.unsplash.com/400x250/?news" 
-                         alt="Berita" 
+                         alt="Berita Terkini" 
                          width="400" 
                          height="250"
                          layout="responsive">
@@ -113,7 +185,7 @@
             
             <div class="card">
                 <amp-img src="https://source.unsplash.com/400x250/?sports" 
-                         alt="Olahraga" 
+                         alt="Update Olahraga" 
                          width="400" 
                          height="250"
                          layout="responsive">
@@ -127,7 +199,7 @@
             
             <div class="card">
                 <amp-img src="https://source.unsplash.com/400x250/?entertainment" 
-                         alt="Hiburan" 
+                         alt="Hiburan Terkini" 
                          width="400" 
                          height="250"
                          layout="responsive">
@@ -138,6 +210,14 @@
                     <a href="#" class="card-link">Selengkapnya →</a>
                 </div>
             </div>
+        </div>
+        
+        <!-- Social Share Buttons -->
+        <div class="share-buttons">
+            <amp-social-share type="twitter" width="45" height="33"></amp-social-share>
+            <amp-social-share type="facebook" width="45" height="33" data-attribution="254325784911610"></amp-social-share>
+            <amp-social-share type="whatsapp" width="45" height="33"></amp-social-share>
+            <amp-social-share type="email" width="45" height="33"></amp-social-share>
         </div>
     </main>
     
