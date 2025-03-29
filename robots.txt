@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rans-info.github.io/hari-ini/sitemap.xml
